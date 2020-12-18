@@ -1,0 +1,14 @@
+<snippet>
+  <content><![CDATA[
+static int test = -1;
+if (test != ${0}) {
+  test = ${0};
+  Serial.print("${0} : ");
+  Serial.println(test);
+}
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>stateMachine</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>

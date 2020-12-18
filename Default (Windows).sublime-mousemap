@@ -1,0 +1,13 @@
+[
+  // Supprimer avec roulette
+  { "button": "scroll_down", "modifiers": ["alt"], "command": "right_delete"},
+  { "button": "scroll_up", "modifiers": ["alt"], "command": "left_delete" },
+
+  // Retour à la ligne
+  { "button": "button3", "modifiers": ["alt"], "command": "insert", "args": {"characters": "\n"} },
+
+  // Déplacement du curseur
+  { "button": "scroll_down", "modifiers": ["shift"], "command": "run_macro_file", "args": {"file": "res://Packages/User/move_right.sublime-macro"} },
+  { "button": "scroll_up", "modifiers": ["shift"], "command": "run_macro_file", "args": {"file": "res://Packages/User/move_left.sublime-macro"} },
+
+]

@@ -1,0 +1,15 @@
+[
+	// Swap de lignes
+	{ "keys": ["alt+up"], "command": "swap_line_up" },
+	{ "keys": ["alt+down"], "command": "swap_line_down" },
+
+	// Suppression de ligne
+	{ "keys": ["alt+w"], "command": "run_macro_file", "args": {"file": "res://Packages/Default/Delete Line.sublime-macro"} },
+
+  // Réindentation
+  { "keys": ["ctrl+e"], "command": "reindent", "args": {"single_line": false} },
+  { "keys": ["ctrl+shift+e"], "command": "htmlprettify" },
+
+  // Macro pour flèche droite
+  { "keys": ["alt+shift+z"], "command": "run_macro_file", "args": {"file": "Packages/User/right_arrow.sublime-macro"} },
+]

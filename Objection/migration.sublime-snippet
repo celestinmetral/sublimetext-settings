@@ -1,0 +1,28 @@
+<snippet>
+  <content><![CDATA[
+/*
+  Fichier de migration pour ${TM_FILENAME/(\w+_)(\w+)\.js/\2/g}
+*/
+exports.up = function(knex, Promise) {
+    return knex.schema.createTable('${TM_FILENAME/(\w+_)(\w+)\.js/\2/g}', function(t) {
+        t.increments('id').unsigned().primary();
+        t.dateTime('createdAt').notNull();
+        t.dateTime('updatedAt').nullable();
+        t.dateTime('deletedAt').nullable();
+
+        t.string('name').notNull();
+    });
+};
+
+exports.down = function(knex, Promise) {
+    return knex.schema.dropTable('${TM_FILENAME/(\w+_)(\w+)\.js/\2/g}');
+};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>migration</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>Structure type d'une migration Knex.js</description>
+</snippet>
+
+

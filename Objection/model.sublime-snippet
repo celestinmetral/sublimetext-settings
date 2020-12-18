@@ -1,0 +1,23 @@
+<snippet>
+  <content><![CDATA[
+/*
+  Fichier modèle pour l'entitée ${TM_FILENAME/(\w+)\.js/\1/g}
+*/
+
+const { Model } = require('objection');
+
+class ${TM_FILENAME/(\w+)\.js/\1/g} extends Model {
+
+  static get tableName(){
+    return '${TM_FILENAME/(\w+)\.js/\1/g}';
+  }
+}
+
+module.exports = ${TM_FILENAME/(\w+)\.js/\1/g};
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>model</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>Classe Model de base pour Objection.js</description>
+</snippet>

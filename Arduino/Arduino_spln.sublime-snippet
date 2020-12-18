@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+Serial.println($1);$0
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>spln</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+  <description>Affichage série sous Arduino</description>
+</snippet>
+

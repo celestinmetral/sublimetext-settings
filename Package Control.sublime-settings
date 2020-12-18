@@ -1,0 +1,27 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"Babel",
+		"DA UI",
+		"Diffy",
+		"Function Name Display",
+		"Gremlins",
+		"hextoASCII",
+		"Highlight Trailing Whitespace",
+		"HTML-CSS-JS Prettify",
+		"Increment Selection",
+		"MarkdownLivePreview",
+		"Package Control",
+		"PackageResourceViewer",
+		"Pug",
+		"SideBarEnhancements",
+		"Solarized Color Scheme",
+		"Stylus",
+		"Theme - Sodarized",
+		"Whitespace"
+	]
+}
