@@ -15,12 +15,12 @@
 	"highlight_trailing_whitespace_non_cursor": false,
 	"ignored_packages":
 	[
-		"Vintage"
+		"Vintage",
 	],
 	"show_encoding": true,
 	"show_git_status": true,
 	"skin": "DA UI/Origin",
 	"tab_size": 2,
 	"theme": "Sodarized Light 3.sublime-theme",
-	"translate_tabs_to_spaces": true
+	"translate_tabs_to_spaces": true,
 }
