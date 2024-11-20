@@ -1,0 +1,11 @@
+<snippet>
+  <content><![CDATA[
+    uint32_t before = HAL_GetTick();
+    uint32_t after = HAL_GetTick();
+    PM_LOG("elapsed:%ld\n\r", after-before);
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>elapsed</tabTrigger>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <!-- <scope>source.python</scope> -->
+</snippet>
